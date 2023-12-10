@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin:  auto;
+    padding: 0px 50px;
+}
+.side-bar{
+    min-height: 100vh;
+    background-color: black;
+    position: fixed;
+    padding:20px ;
+}
+.side-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    padding: 20px 0px;
+    background-color: blueviolet ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: white;
+}
+
+.side-bar{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.bir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two{
+    width: 100%;
+   padding: 50px 0;
+    background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.two h1{
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    width: 500px;
+    font-family: sans-serif;
+}
+.two p{
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+button.one{
+    width: 100px;
+    height: 40px;
+    color:black;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+button.one:hover{
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+h2{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p.iki{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.four{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.four div{
+    width: 300px;
+    height: 350px;
+   text-align: center;
+}
+.four.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.iki{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+button.iki:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width:998px) {
+    .navbar ul{
+        display: none;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    .two{
+        flex-direction: column;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .four{
+        flex-direction: column;
+    }
+}
+.five{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.five img{
+    width: 500px;
+    height: 350px;
+}
+button.uch{
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+button.uch:hover{
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+}
+ h3{
+    color: black;
+    font-size: 30px;
+}
+p.uch{
+    color: black;
+    margin-left: -20px;
+    padding: 20px;
+}
+p.dord{
+    color: gray;
+    margin-left: -20px;
+    padding: 20px;
+}
+.six{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.six img{
+    width: 400px;
+    height: 250px;
+}
+p.besh{
+    color: rgb(90, 90, 145);
+    padding: 10px;
+}
+h4{
+    color: black;
+    font-size: 30px;
+    margin-left: -5px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+p.alti{
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+}
+p.yeddi{
+    color: gray;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.seven{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.seven .yuxari{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.seven .ashagi{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+} 
+.seven .ashagi div{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+.seven .ashagi p{
+    color: gray;
+}
+.seven h1{
+    color: white;
+  
+   
+    font-family: sans-serif;
+}
+.seven p{
+    color: white;
+
+    font-family: sans-serif;
+}
+    
+.ten{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.eleven{
+    width: 100%;
+    height: 100px;
+}
+.twelve{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.twelve h2{
+    margin-right: 150px;
+}
+.twelve .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 350px;
+    padding: 10px;
+}
+.thirteen{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg.webp);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.yuxari{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    gap: 50px;
+}
+h5{
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.thirteen p{
+    color: white;
+    padding: 10px;
+}
+input{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.hisse{
+    display: flex;
+    gap: 20px;
+}
+.thirteen button{
+    width: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+.pictures{
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+    gap: 10px;
+   
+}
+.ashagi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.icons {
+
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.icons :hover{
+    background-color: blueviolet;
+}
